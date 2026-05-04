@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Mi CV Técnico</title>
+</head>
+<body>
+    <h1>Mi portafolio</h1>
+    <nav class="nevbar">
+        <ul>
+            <li><a href="#Sobre-mi">Sobre mi</a></li>
+            <li><a href="#Habilidades">Habilidades</a></li>
+            <li><a href="#Perfil-profesional">Perfil profesional</a></li>
+            <!-- Corrección 1: Se cambió el espacio por un guion en el href -->
+            <li><a href="#Proyectos-destacados">Proyectos destacados</a></li>
+            <li><a href="#Contactos">Contactos</a></li>
+        </ul>
+    </nav>     
+
+    <h2>Muñoz Flores Isaias Rafael Junior</h2> 
+    <img src="foto-perfil.jpeg" alt="Foto de perfil" width="150">   
+
+    <section id="Sobre-mi">   
+        <!-- Corrección 2: Se usaron h2 para los títulos de sección -->
+        <h2>Sobre mi</h2> 
+        <p>Estudiante de último año de secundaria técnica, especializado en Informática. 
+            <br>Me apasiona el mantenimiento de hardware y la resolución de problemas técnicos en equipos de computación. 
+            <br>Cuento con experiencia práctica en el montaje de componentes y la optimización de sistemas operativos, especialmente en distribuciones Linux. 
+            <br>Soy una persona proactiva, detallista y orientada a resultados, con gran capacidad para trabajar en equipo y enfrentar nuevos desafíos tecnológicos.
+        </p>
+    </section>
+
+    <section id="Habilidades">   
+        <h2>Habilidades</h2>
+        <!-- Corrección 3: Eliminada la etiqueta <p> que envolvía la tabla -->
+        <table>
+            <thead>
+                <tr>
+                    <th>Habilidad</th>
+                    <th>Nivel</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>HTML5</td><td>Intermedio</td></tr>
+                <tr><td>Mantenimiento de Hardware</td><td>Avanzado</td></tr>
+                <tr><td>Instalacion de S.0</td><td>Intermedio</td></tr>
+                <tr><td>Ofimatica</td><td>Avanzado</td></tr>
+                <tr><td>Instalación y Diseño de redes</td><td>Intermadio</td></tr>
+                <tr><td>Configuración de Dispositivos de Red</td><td>avanzado</td></tr>
+                <tr><td>Programación de Microcontroladores (Arduino)</td><td>Intermedio</td></tr>
+                <tr><td>Diseño y Montaje de Sistemas Robóticos</td><td>Intermedio</td></tr>
+                <tr><td>Programación en Python</td><td>Intermedio</td></tr>
+            </tbody>
+            <tfoot>
+                <tr><td colspan="2"></td></tr>
+            </tfoot>
+        </table>
+    </section>
+
+    <section id="Perfil-profesional">   
+        <h2>Perfil profesional</h2>
+        <p> PERFIL PROFECIONAL EN PROCESO</p>
+    </section>
+
+    <!-- Corrección 4: Se quitó el espacio en el ID -->
+    <section id="Proyectos-destacados">   
+        <h2>Proyectos destacados</h2>
+        <p>Dron con sistema arduino</p>
+    </section>
+
+    <section id="Contactos">   
+        <h2>Contacto</h2>
+        <form action="#" method="POST" style="max-width: 400px;">
+            <fieldset>
+                <legend>Contacto</legend>
+                <div style="margin-bottom: 10px;">
+                    <label for="nombre" style="display: block;">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required style="width: 100%;">
+                </div>
+                <div style="margin-bottom: 10px;">
+                    <label for="email" style="display: block;">Email:</label>
+                    <input type="email" id="email" name="email" required style="width: 100%;">
+                </div>
+                <div style="margin-bottom: 10px;">
+                    <label for="mensaje" style="display: block;">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" rows="4" style="width: 100%;"></textarea>
+                </div>
+                <div style="margin-bottom: 10px;">
+                    <label for="telefono" style="display: block;">telefono:</label>
+                    <!-- Corrección 5: El tipo correcto es "tel", no "telefono" -->
+                    <input type="tel" id="telefono" name="telefono" required style="width: 100%;">
+                </div>
+                <button type="submit" style="width: 100%; padding: 8px; cursor: pointer;">Enviar</button>
+            </fieldset>
+        </form>
+    </section>
+    <iframe 
+    width="560" 
+    height="315" 
+    src="https://www.youtube.com/embed/10GHKjgQIR0" 
+    title="Video de presentación del portfolio" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    allowfullscreen>
+</iframe>
+</body>
+</html>
