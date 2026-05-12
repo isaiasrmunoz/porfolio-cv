@@ -1,0 +1,13 @@
+:root{
+    --colorprimario:#194077;
+    --colorsecundario:#4C7C88;
+    --colorterciario:#4C7C88;
+    --fuente:Arial, sans-serif;
+    --espacio:20px;
+}
+
+nav{
+    background-color: var(--colorterciario);
+    padding: var(--espacio);
+    
+}
