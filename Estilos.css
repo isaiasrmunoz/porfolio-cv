@@ -1,13 +1,104 @@
 :root{
     --colorprimario:#194077;
-    --colorsecundario:#4C7C88;
-    --colorterciario:#4C7C88;
+    --colorsecundario:#EBFFDC;
+    --colorterciario:#FFF197;
     --fuente:Arial, sans-serif;
+    --fuentedos: 'Alegreya', serif;
     --espacio:20px;
 }
 
-nav{
-    background-color: var(--colorterciario);
-    padding: var(--espacio);
-    
+*{
+    background-color: var(--colorprimario);
+}
+
+nav ul li a {
+    color: var(--colorterciario);         
+    text-decoration: none;  
+}
+nav ul li a:hover {
+    color: #ff9900;        
+}
+
+h1 {
+    font-family: var(--fuentedos);
+    font-style: italic;
+    text-align: center;
+}
+
+h1,h2,h3 {
+      color:var(--colorterciario) ;
+}
+
+p{
+    color:black;
+}
+
+table {
+    width: 100%;            
+    max-width: 600px;       
+    margin: 0 auto;         
+    border-collapse: collapse; 
+    color: #f1db8e;         
+}
+
+th, td {
+    padding: 12px;         
+    text-align: left;       
+}
+
+td:last-child, th:last-child {
+    text-align: right;
+}
+
+tr {
+    border-bottom: 1px solid rgba(241, 219, 142, 0.2);
+}
+
+fieldset {
+    border: 1px solid rgba(241, 219, 142, 0.3); 
+    border-radius: 12px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.05); 
+}
+
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #f1db8e;
+    border-radius: 5px;
+    background-color: #0b2c5e; 
+    color: white;
+}
+
+
+button, input[type="submit"] {
+    background-color: #f1db8e;
+    color: #0b2c5e;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: white;
+}
+
+.seccion-contacto {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; 
+    gap: 30px;
+    padding: 40px;
+}
+
+.info-contacto {
+    flex: 1;
+    min-width: 250px;
+    color: #f1db8e;
 }
