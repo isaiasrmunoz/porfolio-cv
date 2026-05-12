@@ -27,6 +27,7 @@ h1 {
 
 h1,h2,h3 {
       color:var(--colorterciario) ;
+      font-style: italic;
 }
 
 p{
@@ -101,4 +102,12 @@ button:hover {
     flex: 1;
     min-width: 250px;
     color: #f1db8e;
+}
+img {
+    display: block;  
+    margin: 0 auto; 
+    width: 250px;      
+    height: auto;
+    border-radius: 15px; 
+    margin-top: 20px;  
 }
