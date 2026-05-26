@@ -1,23 +1,31 @@
-# Mi Portfolio Técnico - [Muñoz isias]
-aplicaciones utilizadas
-#HTML5#:Estructura del codigo.
- → #index.html# 
+# portafolio en html
 
-    → header
 
-     → nav
+## Tecnologías Aplicadas
 
-     → section “sobremi” → img / h2 / p
+### 1. HTML 
 
-     → section “habilidades” → h2 / table
+* `<header>` y `<nav>` 
+* `<main>` 
+* `<section>` 
+* `<article>` 
+* `<footer>` 
 
-     → section “proyectos” → h2 /article
+### 2. Variables CSS y Flexbox 
+* **Variables (`:root`):** 
+ (`Arial` y `Alegreya` ).
+* **Flexbox:** `display: flex` .
+* **Componentes:**  (`<table>`)  (`<form>`) (`<fieldset>`).
 
-     → section “Perfil-profesional” → h2 /article
+### 3. Diseño Adaptativo / Responsivo (Clase 3)
+* `@media (max-width: 768px)`
 
-     →  section “contacto” →  h2 / form
-     
-     → footer
+---
 
-→#Estilos.ccs
-    :root
+## 📁 Estructura del Proyecto
+
+```text
+├── index.html          # Código principal con estructura semántica HTML5
+├── Estilos.css         # Hoja de estilos con Variables, Flexbox y Media Queries
+├── foto-perfil.jpeg    # Imagen de presentación
+└── README.md           # Documentación técnica (Este archivo)
