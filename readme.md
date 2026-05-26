@@ -18,3 +18,6 @@ aplicaciones utilizadas
      →  section “contacto” →  h2 / form
      
      → footer
+
+→#Estilos.ccs
+    :root
